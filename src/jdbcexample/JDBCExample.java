@@ -30,6 +30,8 @@ public class JDBCExample {
         
         dao.insert(emps);
         
+        System.out.println(dao.get(9));
+        
         
     }
     
